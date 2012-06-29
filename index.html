@@ -4,6 +4,7 @@
 	<title>Demo Spine Address Form</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="script/jquery.tmpl.js"></script>
 	<script type="text/javascript" src="script/spine.js"></script>
 	<script type="text/javascript" src="script/spine.activator.js"></script>
 	<script type="text/javascript" src="script/spine.watch.js"></script>
@@ -37,11 +38,11 @@
 			            </div>
 			          </div>
 			          <div class="control-group">
-			            <label class="control-label" for="optionsCheckbox">Checkbox</label>
+			            <label class="control-label" for="optionsCheckbox">Homeowner</label>
 			            <div class="controls">
 			              <label class="checkbox">
-			                <input type="checkbox" id="optionsCheckbox" value="option1">
-			                Option one is this and that—be sure to include why it's great
+			                <input type="checkbox" id="homeowner" value="option1">
+			                Are you a homeowner? Or not? Check for yes.
 			              </label>
 			            </div>
 			          </div>
@@ -88,7 +89,7 @@
 			        </fieldset>
 			      </form>
 			</div>
-			<div class="span4">Sidebar</div>
+			<div class="span4" id="display">Sidebar</div>
 		</div>
 	</div>
 </body>
